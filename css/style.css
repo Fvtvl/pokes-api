@@ -1,0 +1,43 @@
+body {
+    background-color:   ffff;
+}
+
+ul {
+    list-style: none;
+}
+
+.input {
+text-align: center;
+margin-top: 20px;
+width: 350px;
+height: 35px;
+padding-left: 16px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+color: #ffff;
+background-color: #2F303A;
+}
+
+.btn {
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 1px transparent;
+    background-color: #998cdd;
+    font-weight: 500;
+    Font-size: 16px;
+    Line-height: 1.6;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    
+}
+
+.card {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    color: #2F303A;
+}

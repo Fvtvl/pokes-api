@@ -1,0 +1,13 @@
+    <div class="card-body">
+        <p class="card-text">Вага: {{weight}}</p>
+        <p class="card-text">Зріст: {{height}}</p>
+
+        <p class="card-text"><b>Скіли: </b></p>
+        <ul class="list-group">
+            {{#each abilities}}
+            <li class="list-group-item">{{ability.name}}</li>
+            {{/each}}
+        </ul>
+        
+    </div>
+</div>
